@@ -1,5 +1,5 @@
 def solution(A):
-    B = {}  #create a empty dict to storage the distinct values in A and their frequency
+    B = {}  # create a empty dict to storage the distinct values in A and their corresponding frequency
     for i in A:
         if i not in B:
             B[i] = 1
