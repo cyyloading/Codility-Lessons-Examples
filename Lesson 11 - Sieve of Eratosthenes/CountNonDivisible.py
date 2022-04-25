@@ -1,3 +1,4 @@
+# Time complexity: O(N * log(N))
 def solution(A):
     N = len(A)
     max_A = max(A)
